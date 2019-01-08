@@ -83,6 +83,7 @@ def webcam_face_recognizer(database):
             break
     cv2.destroyWindow("preview")
 
+
 def process_frame(img, frame, face_cascade):
     """
     Determine whether the current frame contains the faces of people from our database
